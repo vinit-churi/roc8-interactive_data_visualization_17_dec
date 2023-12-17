@@ -4,7 +4,6 @@ const nextConfig = {
     // serverActions: true,
     serverComponentsExternalPackages: ["sqlite3", "csv-parser"],
   },
-  ignoreBuildErrors: true,
 };
 
 module.exports = nextConfig;
