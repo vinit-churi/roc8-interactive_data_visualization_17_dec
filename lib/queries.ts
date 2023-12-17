@@ -43,11 +43,11 @@ export function createQuery(
 }
 
 export function createQuery2(
-  ageRange: string | null,
-  gender: string | null,
-  date1: string | null,
-  date2: string | null,
-  selectedFeatures: string | null
+  ageRange: any,
+  gender: any,
+  date1: any,
+  date2: any,
+  selectedFeatures: any
 ) {
   let filters = [];
   console.log(ageRange);
