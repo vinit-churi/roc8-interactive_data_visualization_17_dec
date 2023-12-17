@@ -5,7 +5,7 @@ import Chart from "react-apexcharts";
 import { useState } from "react";
 import FeatureLineChart from "./FeatureLineChart";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-const BarChartAppex = ({ result, lineChartResult }: FilterType) => {
+const BarChartAppex = ({ result, lineChartResult }: any) => {
   // const [selectedBar, setSelectedBar] = useState(null);
   const params = useSearchParams();
   const pathname = usePathname();

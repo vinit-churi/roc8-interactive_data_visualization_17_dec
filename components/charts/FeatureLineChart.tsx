@@ -7,7 +7,8 @@ const FeatureLineChart = ({
   selectedBar,
   lineChartResult,
 }: {
-  selectedBar: string;
+  selectedBar?: any;
+  lineChartResult?: any;
 }) => {
   const params = useSearchParams();
   console.log(lineChartResult);

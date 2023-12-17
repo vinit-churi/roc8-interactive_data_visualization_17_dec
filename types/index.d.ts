@@ -15,6 +15,7 @@ export type FilterType = {
   gender: string | null;
   date1: string | null;
   date2: string | null;
+  selectedBar: string | null;
 };
 
 export interface SearchParamsProps {
