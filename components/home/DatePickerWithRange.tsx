@@ -23,7 +23,9 @@ function DatePickerWithRange({
   });
   function handleSelect(ranges: DateRangePickerProps) {
     console.log(ranges);
+    // @ts-ignore
     const startDate = new Date(ranges.selection.startDate);
+    // @ts-ignore
     const endDate = new Date(ranges.selection.endDate);
 
     const formattedStartDate = startDate.toLocaleDateString("en-CA", {
